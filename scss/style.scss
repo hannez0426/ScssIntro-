@@ -1,6 +1,8 @@
+$font-color: #3498db;
+
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: $font-color;
     margin: 0;
     padding: 0;
 }
@@ -12,16 +14,16 @@ article {
     border-radius: 10px;
 
     h1 {
-        color: darkblue;
+        color: $font-color;
         font-size: 32px;
     }
 
     p {
-        color: #333;
+        color: $font-color;
         font-size: 18px;
     }
 
     &:hover {
-        background-color: lightgreen;
+        background-color: $font-color;
     }
 }
