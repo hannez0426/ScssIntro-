@@ -1,3 +1,16 @@
+header {
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+}
+header > h2 {
+  color: white;
+  margin: 0;
+}
+header > p {
+  color: white;
+}
+
 body {
   font-family: Arial, sans-serif;
   background-color: #3498db;
@@ -11,11 +24,11 @@ article {
   margin: 30px;
   border-radius: 10px;
 }
-article h1 {
+article > h1 {
   color: #3498db;
   font-size: 32px;
 }
-article p {
+article > p {
   color: #3498db;
   font-size: 18px;
 }

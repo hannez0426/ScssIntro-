@@ -1,4 +1,7 @@
+@import "header";
+
 $font-color: #3498db;
+
 
 body {
     font-family: Arial, sans-serif;
@@ -13,12 +16,12 @@ article {
     margin: 30px;
     border-radius: 10px;
 
-    h1 {
+    >h1 {
         color: $font-color;
         font-size: 32px;
     }
 
-    p {
+    >p {
         color: $font-color;
         font-size: 18px;
     }
